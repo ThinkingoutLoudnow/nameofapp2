@@ -7,7 +7,21 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+  <h1>Welcome to Tucker Survival Gear</h1>
+  <h2>Your source of survival gear</h2>
+<p>Welcome! The date and time is <%= Time.now %></p>
+  <%= yield %>
 
+  <footer>
+    &copy; 2017 Bike Berlin
+  </footer>
   <body>
     <%= yield %>
   </body>
