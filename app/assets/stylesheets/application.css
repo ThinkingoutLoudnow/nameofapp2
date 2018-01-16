@@ -13,3 +13,111 @@
  *= require_tree .
  *= require_self
  */
+ body{
+   margin: 0px;
+   padding: 0px;
+ }
+ .bodybackground{
+   background-image: url("http://4.bp.blogspot.com/-XFK-2XiVmhw/UuYiuiFQi8I/AAAAAAAAHKA/RWdr0OIBkQo/s1600/ruinswallpaper.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: auto;
+ }
+ .topnav{
+   text-align: center;
+   background-color: gray;
+ }
+ #topleft{
+   margin: 10px 10px;
+   display: inline-block;
+ }
+ #topright{
+   display: inline-block;
+   text-align: center;
+   margin: 10px 10px 10px 0px;
+ }
+ #main-display h1{
+   margin: auto;
+   text-align: center;
+ }
+ #welcome{
+   text-align: center;
+   color: white;
+ }
+ .intro h3 {
+   color: white;
+   text-align: center;
+ }
+ .second-nav{
+   text-align: center;
+   font-size: 25px;
+   margin-bottom: 20px;
+ }
+ .second-nav .midnav li{
+   dislpay: inline-block;
+ }
+ .left-image{
+   height: 750px;
+   width: 100%;
+   background: url("https://www.doomsdayprep.com/wp-content/uploads/2014/04/vertical-doomsdayprep.jpg");
+   background-size: auto;
+   background-position: center;
+ }
+ .left-image h2{
+   margin-top: 100px;
+   color: white;
+ }
+ .mid-image1{
+   height: 200px;
+   width: 100%;
+   margin: 4px;
+   background: url("http://www.thebackyardpioneer.com/wp-content/uploads/2012/11/MaxPed.jpg");
+   background-size: cover;
+   dislpay: block;
+ }
+ .mid-image2{
+   height: 200px;
+   width: 100%;
+   margin: 4px;
+   background: url("https://i.pinimg.com/originals/e4/63/fb/e463fb7f38ebb9c1eb18327e9d52ac26.jpg");
+   background-size: cover;
+ }
+
+ .right-image1{
+   margin: 4px;
+   height: 412px;
+   width: 100%;
+   background: url("https://totalprepare.ca/wp-content/uploads/image-1303.jpeg");
+   background-size: cover;
+   background-position: center;
+ }
+ #vid{
+    height: 342px;
+    margin: 2px;
+    width: 138%;
+    background: url("https://i.pinimg.com/originals/e4/a6/33/e4a633894bf59c4d3a09594a254b17e4.jpg");
+    background-image: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ @media screen and (min-width: 480px) {
+     .left-image1 {
+          display: block;
+          clear: both;
+          background-position: center;
+          background-size: cover;
+     }
+   @media screen and (min-width: 880px) {
+     .right-image1 {
+          width: 100%;
+          background-position: center;
+          background-size: cover;
+     }
+ }
+ @media screen and (min-width: 480px) {
+     #vid {
+          width: 100%;
+          background-size: cover;
+     }
+ }
